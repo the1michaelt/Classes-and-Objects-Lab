@@ -3,22 +3,22 @@ from alarm_clock import AlarmClock
 
 # inquiry_one= AlarmClock()
 inquiry_one = AlarmClock("12:00")
-inquiry_one.current_time()  # display time
+inquiry_one.current_time()  # function to display time
 
-# inquiry_two= AlarmClock("Y")
-# inquiry_two.change_time  # change time
+inquiry_two= AlarmClock("Y")
+inquiry_two.set_or_change_current_time()  # change time
 
-# inquiry_three= AlarmClock("off")
-# inquiry_three.alarm_status  # display alarm status
+inquiry_three= AlarmClock("off")
+inquiry_three.turn_alarm_on_off(alarm_status)  # display alarm status
 
 # inquiry_four= AlarmClock("N")
 # inquiry_four.change_alarm_status  # change alarm status
 
-# inquiry_five= AlarmClock("15:00")
-# inquiry_five.alarm_time #display alarm time
+inquiry_five= AlarmClock("15:00")
+inquiry_five.time_of_alarm(alarm_time) #display alarm time
 
-# inquiry_six= AlarmClock("Y")
-# inquiry_six.change_alarm  # change alarm
+inquiry_six= AlarmClock("Y")
+inquiry_six.set_or_change_alarm_time(alarm_time)  # change alarm
 
 
 # # # Three objects

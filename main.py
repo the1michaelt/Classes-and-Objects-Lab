@@ -4,18 +4,17 @@ from alarm_clock import AlarmClock
 one_display_time = AlarmClock("12:00","","","","")
 one_display_time.current_time()  # function to display time
 
-two_change_time= AlarmClock("","Y","","","")
+two_change_time= AlarmClock("","y","","","")
 two_change_time.set_or_change_current_time()  # change time
 
-three_alarm_status= AlarmClock("","","off","","")
-three_alarm_status.turn_alarm_on_off()  # display alarm status
+three_change_alarm = AlarmClock("","","y","","")
+three_change_alarm.set_or_change_alarm_time()  # change alarm
 
 four_alarm_time= AlarmClock("","","","15:00","")
 four_alarm_time.time_of_alarm() #display alarm time
 
-five_change_alarm = AlarmClock("","","","","Y")
-five_change_alarm.set_or_change_alarm_time()  # change alarm
-
+five_alarm_status= AlarmClock("","","","","off")
+five_alarm_status.turn_alarm_on_off()  # display alarm status
 
 # # # Three objects
 # #        self.time = "" # current time = ""
